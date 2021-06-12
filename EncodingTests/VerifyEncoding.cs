@@ -14,7 +14,6 @@ namespace EncodingTests
         {
             using (new AssertionScope())
             {
-                Encoding.Default.GetBytes(RightSingleQuoteAkaApostrophe).Should().Equal(0xE2, 0x80, 0x99);
                 Encoding.UTF8.GetBytes(RightSingleQuoteAkaApostrophe).Should().Equal(0xE2, 0x80, 0x99);
                 Encoding.ASCII.GetBytes(RightSingleQuoteAkaApostrophe).Should().Equal(0x3F);
             }
