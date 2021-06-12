@@ -1,5 +1,9 @@
 # EncodingTests
 
+![dotnet-ubuntu.yml](https://github.com/benrobot/EncodingTests/actions/workflows/dotnet-ubuntu.yml/badge.svg)
+![dotnet-windows.yml](https://github.com/benrobot/EncodingTests/actions/workflows/dotnet-windows.yml/badge.svg)
+
+
 **BEWARE** the file encoding
 
 This project was created in preparation for asking a question on Stackoverflow (https://stackoverflow.com/q/67950751/3166133)
