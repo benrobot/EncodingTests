@@ -5,9 +5,9 @@ using Xunit;
 
 namespace EncodingTests
 {
-    public class VerifyEncoding
+    public class VerifyEncodingFromUFT8EncodedFile
     {
-        private const string RightSingleQuoteAkaApostrophe = "’";
+        private const string RightSingleQuoteAkaApostrophe = "â€™";
 
         [Fact]
         public void RightSingleQuoteAkaApostropheTest()
